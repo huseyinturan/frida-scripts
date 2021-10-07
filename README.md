@@ -5,3 +5,5 @@ Frequently used frida scripts for Android Apps that hooks on Socket (inetSocket.
 trace.js script shows the target object usage stack. 
 
 logd.js script prints Log.d() lines for undebuggable apps and release mode apps.
+
+cipher.js script to hook the Cipher class to print encryption keys, ivs and data
