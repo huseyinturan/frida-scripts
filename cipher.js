@@ -67,7 +67,7 @@ Java.perform(function () {
         console.log("================= SecretKeySpec =====================");
         console.log("SecretKeySpec :: bytesToString :: " + bytesToString(a));
         console.log("SecretKeySpec :: bytesToBase64 :: " + bytesToBase64(a));
-        console.log("SecretKeySpec :: bytesToBase64 :: " + bytesToHex(a));
+        console.log("SecretKeySpec :: bytesToHex :: " + bytesToHex(a));
         return result;
     }
 
@@ -78,7 +78,7 @@ Java.perform(function () {
         console.log("\n================== IvParameterSpec ====================");
         console.log("IvParameterSpec :: bytesToString :: " + bytesToString(a));
         console.log("IvParameterSpec :: bytesToBase64 :: " + bytesToBase64(a));
-        console.log("IvParameterSpec :: bytesToBase64 :: " + bytesToHex(a));
+        console.log("IvParameterSpec :: bytesToHex :: " + bytesToHex(a));
         return result;
     }
 
